@@ -1,0 +1,120 @@
+* {
+    background-color: #111;
+    color: white;
+}
+
+body {
+    max-width: 1000px;
+    margin: auto;
+}
+nav ul {
+    background: #111;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    right: 0;
+}
+nav ul li
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    display: inline-block;
+}
+nav ul li a
+{
+    display: block;
+    padding: 0 30px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 50px;
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background: #B00;
+}
+
+#jeux, #jeu, #modification, #add {
+    max-width: 50%;
+    margin: auto;
+}
+
+.trophy {
+    float: left;
+    height: 120px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
+
+section {
+    clear: both;
+}
+
+.edit_link, .delete_button, .add_link {
+
+    margin-top: 15px;
+    margin-right: 20px;
+    cursor: pointer;
+    text-align: center;
+    box-sizing: content-box;
+    padding: 5px;
+    display: inline-block;
+
+    text-decoration: none;
+    border-radius: 15px;
+    height: 30px;
+    justify-content: center;
+    width: 120px;
+    line-height: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.edit_link {
+    border: 2px #025 solid;
+}
+
+.delete_button {
+    border: 2px #500 solid;
+}
+
+.add_link {
+    border: 2px #051 solid;
+}
+
+.edit_link:hover {
+    background-color: #025;
+}
+
+.delete_button:hover {
+    background-color: #500;
+}
+
+.add_link:hover {
+    background-color: #051;
+}
+
+label {
+    width: 120px;
+    display: inline-block;
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+input[type=text],input[type=number], select {
+    width: 200px;
+}
+
+#meteoImg {
+    display:block;
+}
+
+#home {
+    text-align: center;
+    font-size: 40px;
+}
